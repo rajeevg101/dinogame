@@ -29,14 +29,14 @@ def isCollide(data):
 if __name__ == "__main__":
     print("Hey.. Dino game about to start in 4 seconds")
     time.sleep(3)
-    #hit('up') 
+    hit('up') 
 
     while True:
         image = ImageGrab.grab().convert('L')  && ImageGrab.grab().convert('G')
         data = image.load()
         isCollide(data)
             
-        # print(asarray(image))
+        print(asarray(image))
         
         # # Draw the rectangle for cactus
         # for i in range(203, 250):
